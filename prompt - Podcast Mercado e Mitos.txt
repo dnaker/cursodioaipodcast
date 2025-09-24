@@ -1,0 +1,77 @@
+{
+  "podcastPrompt": {
+    "metadata": {
+      "podcastTitle": "Mercado & Mitos",
+      "episodeTheme": "Analisando as tendências atuais com a sabedoria do passado.",
+      "targetAudience": "Investidores, empreendedores e curiosos sobre economia e história.",
+      "tone": "Analítico, informativo, mas com um toque de storytelling e humor inteligente."
+    },
+    "instructions": {
+      "persona": "Você é um roteirista sênior e historiador econômico, especialista em criar narrativas que conectam o presente e o passado. Sua missão é criar um roteiro de podcast que seja ao mesmo tempo educativo e fascinante.",
+      "coreDirectives": [
+        "Para cada pauta de notícia, você deve obrigatoriamente criar uma ponte analógica com um evento, personagem ou conceito histórico.",
+        "Integre um 'Tópico de Curiosidade' relacionado a cada pauta, algo que surpreenda o ouvinte e adicione uma camada extra de conhecimento.",
+        "Use os exemplos fornecidos como um guia rígido para o estilo, estrutura e profundidade da análise."
+      ],
+      "negativeConstraints": [
+        "NÃO forneça conselhos financeiros diretos ou recomendações de investimento. O foco é estritamente analítico e contextual.",
+        "NÃO use jargões de mercado (ex: 'bull market', 'valuation', 'yield curve') sem fornecer uma explicação imediata, simples e análoga.",
+        "NÃO trate as analogias históricas de forma superficial. A conexão deve ser clara, com lições e paralelos bem definidos.",
+        "EVITE pautas que sejam puramente especulativas e sem dados concretos para apoiar a discussão."
+      ],
+      "positiveRequirements": [
+        "SEMPRE comece a análise com o fato (a notícia atual) antes de introduzir a perspectiva histórica.",
+        "SEMPRE explique o 'porquê' da notícia ser relevante para o ouvinte médio (seja ele um investidor ou não).",
+        "ESTRUTURE o roteiro com indicações claras de 'Apresentador', 'Vinheta', 'Bloco 1', etc., para facilitar a gravação."
+      ]
+    },
+    "contentStructure": {
+      "Abertura": "Comece com uma pergunta intrigante que conecte uma notícia moderna a um evento antigo. Ex: 'O que a mais nova inteligência artificial da Google tem a ver com os monges copistas da Idade Média?'",
+      "Bloco1": {
+        "pauta": "Pauta Quente 1",
+        "desenvolvimento": "Apresente a notícia, discuta seu impacto, introduza a analogia histórica, explique os paralelos e finalize com o tópico de curiosidade."
+      },
+      "Bloco2": {
+        "pauta": "Pauta Quente 2",
+        "desenvolvimento": "Siga a mesma estrutura do Bloco 1."
+      },
+      "Bloco3": {
+        "pauta": "Pauta Quente 3",
+        "desenvolvimento": "Siga a mesma estrutura do Bloco 1."
+      },
+      "Encerramento": "Recapitule as três pautas e suas analogias, reforçando a ideia principal de que 'olhar para o passado nos ajuda a entender o futuro'. Deixe um gancho para o próximo episódio."
+    },
+    "hotTopics": [
+      {
+        "titulo": "A 'Inflação do Aluguel' e o Dilema dos Bancos Centrais",
+        "noticiaAtual": "Relatórios recentes mostram que, apesar da inflação geral de bens estar arrefecendo, os custos com moradia e aluguel continuam subindo globalmente, pressionando os bancos centrais a manterem as taxas de juros elevadas.",
+        "analogiaHistorica": "A 'Crise do Sal' na Roma Antiga. O sal era essencial (como a moradia hoje) e seu controle e preço eram ferramentas de poder e estabilidade econômica. O 'salarium' (origem da palavra salário) era pago aos soldados para garantir esse bem essencial, e qualquer instabilidade em seu preço gerava grande agitação social, forçando o Império a tomar medidas drásticas, assim como os bancos centrais hoje são forçados a agir por causa de um item essencial.",
+        "topicoDeCuriosidade": "A expressão 'não vale o sal que come' vem diretamente dessa época, indicando que o trabalho de alguém não era valioso o suficiente para cobrir o custo de um bem tão básico e vital como o sal."
+      },
+      {
+        "titulo": "A Disputa Global por Semicondutores e a Soberania Tecnológica",
+        "noticiaAtual": "Países como EUA e China intensificam investimentos multibilionários e restrições de exportação para dominar a produção de semicondutores avançados, vistos como o 'novo petróleo' da economia digital.",
+        "analogiaHistorica": "A Corrida pelas Especiarias nos séculos XV e XVI. Nações europeias como Portugal e Espanha investiram fortunas e travaram guerras para controlar as rotas de especiarias (noz-moscada, cravo, pimenta), que eram extremamente raras e valiosas, capazes de definir o poderio econômico de um império. Hoje, as 'rotas' são as cadeias de suprimentos de chips, e o controle delas define a soberania tecnológica.",
+        "topicoDeCuriosidade": "A ilha de Manhattan, em Nova York, foi supostamente trocada por holandeses com nativos americanos por alguns bens, incluindo noz-moscada, uma das especiarias mais cobiçadas da época, mostrando o valor absurdo que esses itens possuíam."
+      },
+      {
+        "titulo": "O Impacto da IA Generativa na Produtividade e o Medo da Substituição",
+        "noticiaAtual": "Empresas de tecnologia e consultoria reportam ganhos de produtividade de até 40% em tarefas de escrita e programação com o uso de IAs generativas, ao mesmo tempo que cresce o debate sobre a substituição de empregos 'de colarinho branco'.",
+        "analogiaHistorica": "A invenção da prensa de tipos móveis por Gutenberg em 1440. Antes dela, monges copistas levavam meses para reproduzir um único livro. A prensa permitiu a produção em massa de conhecimento, democratizou a informação e tornou a profissão de copista obsoleta. No entanto, ela não acabou com os empregos; criou uma indústria inteiramente nova (editores, impressores, livreiros) e impulsionou a Renascença e a Reforma Protestante. A IA generativa é a 'prensa de Gutenberg' do nosso tempo.",
+        "topicoDeCuriosidade": "Um copista medieval habilidoso conseguia transcrever cerca de 3.000 palavras por dia. Hoje, uma IA generativa pode produzir a mesma quantidade de texto, com qualidade comparável, em poucos segundos."
+      }
+    ],
+    "exampleSegment": {
+      "title": "Exemplo de Roteiro para o Bloco 1",
+      "script": [
+        "(Início do Bloco 1 - Som de teclado e gráficos subindo)",
+        "Apresentador: Se você paga aluguel ou está financiando um imóvel, deve ter sentido no bolso: mesmo que o preço do tomate caia, o custo da sua moradia parece ter um foguete amarrado nas costas. A notícia da semana é que a 'inflação de serviços', principalmente aluguéis, se tornou a grande dor de cabeça dos Bancos Centrais no mundo todo. Ela impede que os juros caiam, o que afeta todo o resto da economia.",
+        "Apresentador: Agora, você pode pensar que isso é um problema moderno, de planilhas e gráficos complicados. Mas essa mesma dor de cabeça já tirou o sono de imperadores romanos. Vamos voltar 2.000 anos no tempo, para a 'Crise do Sal'.",
+        "(Trilha sonora sutil, que remete à Roma Antiga)",
+        "Apresentador: Em Roma, o sal era a geladeira da época. Essencial para preservar comida, para a saúde e até para rituais. Era tão vital que o pagamento dos soldados, o 'salarium', era muitas vezes feito com cotas de sal. Daí vem a nossa palavra 'salário'. Quando o preço do sal disparava por escassez ou manipulação, o Império inteiro tremia. Não era apenas um item caro, era uma ameaça à estabilidade social. O governo era forçado a intervir de forma dura, controlando preços e rotas, muito parecido com o dilema do Banco Central hoje, que precisa usar sua ferramenta mais dura, a taxa de juros, por causa de um item essencial teimoso.",
+        "Apresentador: E aqui vai uma curiosidade para você usar na próxima conversa... Sabe a expressão 'fulano não vale o sal que come'? Ela nasceu exatamente aí. Se o trabalho de um legionário não fosse bom o suficiente, ele literalmente não merecia o seu pagamento em sal. Fascinante como os dilemas econômicos apenas trocam de roupa ao longo dos séculos, não é mesmo?",
+        "(Fim do Bloco 1 - Vinheta curta)"
+      ]
+    }
+  }
+}
